@@ -7,6 +7,6 @@ Robust and high accurate Face Recognition SDKs for Android and Windows  (Color &
     - Real-time Recognition
     - 99.8% on LFW
 
-![Demo Video](https://github.com/Nikit333/Face-Recognition-SDK/raw/main/video.gif)
+Contact me if you have any questions. (skype- live:turing311)
 
-Please contact me if you have any questions. (skype- live:turing311)
+![Demo Video](https://github.com/Nikit333/Face-Recognition-SDK/raw/main/video.gif)
