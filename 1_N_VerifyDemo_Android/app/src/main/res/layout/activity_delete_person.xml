@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.turingtech.idverify.DeletePersonActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:id="@+id/linearLayout"
+        tools:layout_editor_absoluteY="196dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person ID:" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberSigned"
+            android:text="0"/>
+
+        <Button
+            android:id="@+id/btnDeletePerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Person " />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

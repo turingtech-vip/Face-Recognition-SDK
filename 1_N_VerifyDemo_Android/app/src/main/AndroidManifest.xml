@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.turingtech.idverify">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.camera.flash"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.turingtech.idverify.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.turingtech.idverify.ActivationActivity" />
+        <activity android:name="com.turingtech.idverify.AddGroupActivity" />
+        <activity android:name="com.turingtech.idverify.DeleteGroupActivity" />
+        <activity android:name="com.turingtech.idverify.EnrollActivity" />
+        <activity android:name="com.turingtech.idverify.IdentifyActivity" />
+        <activity android:name="com.turingtech.idverify.VerifyActivity" />
+        <activity android:name="com.turingtech.idverify.DetectFaceActivity" />
+        <activity android:name="com.turingtech.idverify.DetectMultiFaceActivity" />
+        <activity android:name="com.turingtech.idverify.DetectFaceWithQuality" />
+        <activity android:name="com.turingtech.idverify.GetPersonCountActivity" />
+        <activity android:name="com.turingtech.idverify.GetGroupIDsActivity" />
+        <activity android:name="com.turingtech.idverify.GetPersonIDsActivity" />
+        <activity android:name="com.turingtech.idverify.GetPersonFeatsActivity" />
+        <activity android:name="com.turingtech.idverify.EnrollFromFeatsActivity" />
+        <activity android:name="com.turingtech.idverify.GetFeatCountActivity" />
+        <activity android:name="com.turingtech.idverify.DeletePersonActivity" />
+        <activity android:name="com.turingtech.idverify.GetFeatureActivity"></activity>
+        <activity android:name="qrcode.QrCodeActivity"></activity>
+            </application>
+
+</manifest>
