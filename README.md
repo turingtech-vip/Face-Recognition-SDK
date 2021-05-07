@@ -1,4 +1,4 @@
-# Face-Recognition-SDK  99.8% on LFW
+# Face-Recognition-SDK     99.8% on LFW
 
 Robust and high accurate Face Recognition SDKs for Android and Windows  (Color & Infrared)
 
